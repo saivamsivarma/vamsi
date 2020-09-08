@@ -1,0 +1,53 @@
+.line{
+    width: 100% !important;
+    height: 0rem !important;
+}
+.text{
+    font-size: 3rem !important;
+    background: -webkit-linear-gradient( #3366FF,#2142A3,#5C85FF, #3366FF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card{
+    border-radius: 25px !important;
+}
+input{
+    border-radius: 50px !important;
+    color:#3366FF !important;
+}
+
+textarea{
+    border-radius: 25px !important;
+    color:#3366FF !important;
+}
+
+.contact-text{
+    font-size: 2rem !important;
+}
+.btn{
+    color:#ffffff !important;
+}
+@media only screen and (max-width: 1030px)
+{
+ .text{
+     width: 100% !important;
+ }
+}
+@media only screen and (max-width: 1000px)
+{
+ .text{
+     width: 100% !important;
+     font-size: 4.5rem !important;
+ }
+}
+@media only screen and (max-width: 500px)
+{
+ .text{
+     width: 100% !important;
+     font-size: 2rem !important;
+ }
+ .contact-text{
+    font-size: 1.5rem !important;
+}
+}

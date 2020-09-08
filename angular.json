@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "vamsi"
+    }
+  },
+  "defaultProject": "vamsi",
+  "cli": {
+    "analytics": false
+  }
 }

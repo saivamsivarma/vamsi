@@ -1,0 +1,59 @@
+.rotate-text
+{
+    margin-right: 0rem !important;
+    margin-top: 8rem !important;
+    transform: rotate(90deg) !important;
+}
+.line{
+
+    height: 0rem;
+    border:2px solid #3366FF;
+}
+.text{
+    width: 70vh !important;
+    padding-top: 3rem !important;
+    font-size: 5rem !important;
+    background: -webkit-linear-gradient( #3366FF,#2142A3,#5C85FF, #3366FF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+fa-icon {
+    font-size: 7rem !important;
+    color:#3366FF !important;
+}
+
+@media only screen and (max-width: 1030px)
+{
+ .text{
+     width: 200% !important;
+ }
+}
+@media only screen and (max-width: 1000px)
+{
+ .rotate-text{
+    margin-left: 0rem !important;
+    transform: rotate(0deg) !important;
+ }
+ .text{
+     width: 100% !important;
+     font-size: 4.5rem !important;
+ }
+}
+@media only screen and (max-width: 500px)
+{
+ .text{
+     width: 100% !important;
+     font-size: 2.3rem !important;
+     padding-top: 0rem !important;
+ }
+
+}
+
+@media only screen and (max-width: 370px)
+{
+    fa-icon {
+        font-size: 5rem !important;
+        color:#3366FF !important;
+    }
+}

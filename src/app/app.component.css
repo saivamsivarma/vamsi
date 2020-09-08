@@ -1,0 +1,161 @@
+#home{
+    height: 80vh !important;
+}
+#about-me{
+    height: 100vh !important;
+}
+#skills{
+    margin-top:15rem !important;
+    height: 100vh !important;
+}
+#education{
+    height: 100vh !important;
+}
+#contact{
+    margin-top: 7rem !important;
+    height: 100vh !important;
+}
+
+
+@media screen and (max-width: 1250px){
+    #home{
+        height: 55vh !important;
+    }
+    #skills{
+        margin-top:2rem !important;
+        height: 60vh !important;
+    }
+    #education{
+        height: 58vh !important;
+    }
+    #about-me{
+        padding-top: 2rem !important;
+        height: 95vh !important;
+    }
+    #contact{
+        margin-top: 7rem !important;
+        height: 55vh !important;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    #about-me{
+        height: 50vh !important;
+        padding-top: 3rem !important;
+    }
+    #skills{
+        height: 50vh !important;
+    }
+}
+@media screen and (max-width: 1025px){
+    #home{
+        height: 100vh !important;
+    }
+    #about-me{
+        height: 50vh !important;
+        padding-top: 3rem !important;
+    }
+    #skills{
+        height: 50vh !important;
+    }
+}
+
+@media screen and (max-width: 990px){
+#home{
+    background: linear-gradient(to bottom right, #3366FF,#2142A3, #6c91ff,#5C85FF,#2142A3, #3366FF);
+    background-repeat: no-repeat;
+    background-size: 1000% 1000%;
+    animation: gradient 15s ease infinite;
+    height: 100vh !important;
+    }
+    #about-me{
+        height: 100vh !important;
+        padding-top: 3rem !important;
+    }
+    #skills{
+        margin-top: 12rem !important;
+        height: 90vh !important;
+    }
+    #education{
+        height: 90vh !important;
+    }
+    #contact{
+        height: 80vh !important;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #home{
+        height: 100vh !important;
+        }
+        #about-me{
+            height: 100vh !important;
+            padding-top: 3rem !important;
+        }
+        #skills{
+            margin-top: 12rem !important;
+            height: 100vh !important;
+        }
+        #education{
+            height: 100vh !important;
+        }
+        #contact{
+            height: 100vh !important;
+        }
+    }
+
+@media screen and (max-width: 500px){
+    #home{
+        height: 100vh !important;
+        }
+        #about-me{
+            padding-top: 4rem !important;
+            height: 70vh !important;
+        }
+        #skills{
+            height: 100vh !important;
+        }
+        #education{
+            height: 100vh !important;
+        }
+        #contact{
+            margin-top: 20rem !important;
+            padding-top:5rem !important;
+            height: 110vh !important;
+        }
+}
+
+
+@media screen and (max-width: 360px){
+        #education{
+            height: 100vh !important;
+        }
+        #contact{
+            margin-top: 35rem !important;
+            padding-top:3rem !important;
+            height: 120vh !important;
+        }
+}
+
+@media screen and (max-width: 320px){
+    #home{
+        height: 103vh !important;
+        width: 102% !important;
+    }
+    #about-me{
+        padding-top: 3rem !important;
+        height: 100vh !important;
+    }
+    #skills{
+        margin-top: 8rem !important;
+        height: 100vh !important;
+    }
+    #education{
+        margin-top: 8rem !important;
+    }
+    #contact{
+        margin-top: 50rem !important;
+        padding-top:5rem !important;
+        height: 140vh !important;
+    }
+}

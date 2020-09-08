@@ -1,0 +1,110 @@
+.text{
+    width: 75vh !important;
+    padding-top: 3rem !important;
+    font-size: 5rem !important;
+    background: -webkit-linear-gradient( #3366FF,#2142A3,#5C85FF, #3366FF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  .col-lg-2{
+      margin-top: 10rem !important;
+  }
+
+  .line{
+    height: 0rem;
+    border:2px solid #3366FF;
+}
+  img{
+    border-top-left-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+  }
+
+.rotate-text
+{
+    margin-left: -10rem !important;
+    transform: rotate(270deg) !important;
+}
+.card{
+    border:2px solid #3366FF;
+    border-top-left-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+}
+
+.content{
+    margin-top:10rem !important;
+}
+@media only screen and (max-width: 1283px){
+    .about-me{
+        height: 15vh !important;
+    }
+    .text{
+        width: 30vh !important;
+        font-size: 4rem !important;
+    }
+    .rotate-text{
+        margin-left:0rem !important;
+    }
+    .content{
+        margin-top:0rem !important;
+    }
+}
+@media only screen and (max-width: 1000px)
+{
+    .col-lg-2{
+        margin-top: 0rem !important;
+    }
+ .rotate-text{
+    margin-left: 0rem !important;
+    transform: rotate(0deg) !important;
+ }
+ .text{
+     width: 100% !important;
+     font-size: 4.5rem !important;
+ }
+}
+@media only screen and (max-width: 500px)
+{
+ .text{
+     width: 100% !important;
+     font-size: 1.5rem !important;
+     padding-top: 0rem !important;
+ }
+}
+@media only screen and (max-width: 375px)
+{
+    .btn
+    {
+        font-size: 1rem !important;
+        padding: 3rem;
+    }
+}
+@media only screen and (max-width: 360px)
+{
+    p
+    {
+        font-size: 0.8rem;
+    }
+    .btn
+    {
+        font-size: 0.8rem !important;
+    }
+}
+
+@media only screen and (max-width: 320px)
+{
+    p
+    {
+        font-size: 0.8rem;
+    }
+    .btn
+    {
+        font-size: 0.8rem !important;
+    }
+}
+
+@media only screen and (max-width: 414px)
+{
+    .btn{
+        font-size: 0.9rem;
+    }
+}

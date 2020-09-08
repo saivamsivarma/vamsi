@@ -1,0 +1,103 @@
+.education{
+  margin-top: 3rem !important;
+}
+
+.rotate-text
+{
+    margin-left: -10rem !important;
+    transform: rotate(270deg) !important;
+}
+
+.text{
+  width: 75vh !important;
+  padding-top: 3rem !important;
+  font-size: 5rem !important;
+  background: -webkit-linear-gradient( #3366FF,#2142A3,#5C85FF, #3366FF);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.line{
+  height: 0rem;
+  border:2px solid #3366FF;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: .5em;
+  }
+  
+  p {
+    font-size: .8rem;
+  }
+  
+  .timeline-item {
+    padding: 3em 2em 2em;
+    position: relative;
+    color: #3366FF;
+    border-left: 4px solid #3366FF;
+  }
+  .timeline-item p {
+    font-size: 1rem;
+    color:#222222;
+  }
+  .timeline-item::before {
+    content: attr(date-is);
+    position: absolute;
+    left: 2em;
+    font-weight: bold;
+    top: 1em;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: .785rem;
+  }
+  .timeline-item::after {
+    width: 10px;
+    height: 10px;
+    display: block;
+    top: 1em;
+    position: absolute;
+    left: -7px;
+    border-radius: 10px;
+    content: '';
+    border: 2px solid #3366FF;
+    background: #ffffff;
+  }
+
+  @media only screen and (max-width: 1030px)
+{
+ .text{
+     width: 200% !important;
+ }
+ .education{
+  margin-top: 0rem !important;
+  }
+}
+@media only screen and (max-width: 1000px)
+{
+ .rotate-text{
+    margin-left: 0rem !important;
+    transform: rotate(0deg) !important;
+ }
+ .text{
+     width: 100% !important;
+     font-size: 4.5rem !important;
+ }
+}
+
+@media only screen and (max-width: 500px)
+{
+ .text{
+     width: 100% !important;
+     font-size: 2.3rem !important;
+ }
+}
+
+@media only screen and (max-width: 320px)
+{
+ .text{
+     width: 100% !important;
+     font-size: 2rem !important;
+ }
+}
