@@ -1,7 +1,7 @@
 .text{
     width: 75vh !important;
     padding-top: 3rem !important;
-    font-size: 5rem !important;
+    font-size: 4.5rem !important;
     background: -webkit-linear-gradient( #3366FF,#2142A3,#5C85FF, #3366FF);
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -107,4 +107,11 @@
     .btn{
         font-size: 0.9rem;
     }
+}
+
+@media screen and (min-width: 2152px) and (min-height:667px)
+{
+  .about-me{
+    margin-top:0rem !important;
+  }
 }

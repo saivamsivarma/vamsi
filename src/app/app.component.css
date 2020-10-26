@@ -159,3 +159,26 @@
         height: 140vh !important;
     }
 }
+
+@media screen and (min-width: 2100px)
+{
+  #home{
+    height: 50vh !important;
+}
+
+#about-me{
+    height: 100vh !important;
+    margin-top: 0rem !important;
+}
+#skills{
+    margin-top:35rem !important;
+    height: 60vh !important;
+}
+#education{
+    height: 80vh !important;
+}
+#contact{
+    margin-top: 0rem !important;
+    height: 60vh !important;
+}
+}
